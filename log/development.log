@@ -1,0 +1,49 @@
+Started GET "/webhook" for ::1 at 2024-04-19 10:30:14 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/webhook"):
+  
+Started GET "/" for ::1 at 2024-04-19 10:30:17 +0300
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/bozhena/.rvm/gems/ruby-3.1.4/gems/railties-7.0.8.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/bozhena/.rvm/gems/ruby-3.1.4/gems/railties-7.0.8.1/lib/rails/templates/rails/welcome/index.html.erb (Duration: 3.0ms | Allocations: 303)
+Completed 200 OK in 22ms (Views: 5.1ms | ActiveRecord: 0.0ms | Allocations: 2873)
+
+
+Started GET "/webhook" for ::1 at 2024-04-19 10:30:32 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/webhook"):
+  
+Started GET "/webhook" for ::1 at 2024-04-19 10:32:51 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/webhook"):
+  
+Started POST "/webhook/webhook" for ::1 at 2024-04-19 10:37:29 +0300
+  
+ActionController::RoutingError (No route matches [POST] "/webhook/webhook"):
+  
+Started GET "/webhook" for ::1 at 2024-04-19 10:55:31 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/webhook"):
+  
+Started GET "/webhook" for ::1 at 2024-04-19 10:56:26 +0300
+Processing by WebhooksController#handle_webhook as HTML
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms | Allocations: 580)
+
+
+  
+TypeError (no implicit conversion of nil into String):
+  
+app/controllers/WebhooksController.rb:10:in `handle_webhook'
+Started GET "/webhook" for ::1 at 2024-04-19 10:56:27 +0300
+Processing by WebhooksController#handle_webhook as HTML
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms | Allocations: 484)
+
+
+  
+TypeError (no implicit conversion of nil into String):
+  
+app/controllers/WebhooksController.rb:10:in `handle_webhook'
+Started GET "/webhook" for ::1 at 2024-04-19 10:56:43 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/webhook"):
+  
