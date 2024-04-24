@@ -1,3 +1,4 @@
+# Controller for handling GitHub webhooks.
 class GithubWebhookHandlerController < ApplicationController
   skip_before_action :verify_authenticity_token
 
